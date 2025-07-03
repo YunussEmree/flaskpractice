@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+#content {
+    width: 70%;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 4px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
